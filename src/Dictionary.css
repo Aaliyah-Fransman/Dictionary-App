@@ -6,8 +6,8 @@
   
   .Dictionary section {
     background: white;
-    padding: 30px;
-    border-radius: 6px;
+    padding: 25px;
+    border-radius: 16px;
     box-shadow: 0 10px 20px rgba(120, 120, 120, 0.681);
     margin: 20px 0;
   }

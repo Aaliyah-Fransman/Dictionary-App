@@ -8,11 +8,11 @@ export default function App() {
       <div className="container">
        
       <header className="App-header">
- <h1>Dictionary App</h1>
+ <h1 className="fw-bold text-primary">Dictionary App <span className="big-emoji">📖</span></h1>
 </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
-        </main>
+        </main> 
         <footer>
           <small>
             This project was coded by{" "}

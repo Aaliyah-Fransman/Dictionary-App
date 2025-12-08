@@ -1,6 +1,31 @@
-body {
-  background: white;
+header{
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 200px;
+  padding: 20px;
+  border-radius: 60px;
+  
+ background: #ffffff;                /* white surface */
+ color: #1f1f1f;
+ border:  rgb(100, 100, 255) solid;
+ padding: 24px;
+ border-radius: 16px;
+ box-shadow:
+   0 0 12px rgba(255, 255, 255, 0.9),    
+   0 12px 28px rgba(0, 0, 0, 0.12),      
+   0 6px 12px rgba(0, 0, 0, 0.06);  
 
+  }
+
+body {
+  background:white;
+  
+
+}
+
+.big-emoji {
+  font-size: 40px;
 }
 
 a {
@@ -8,11 +33,12 @@ a {
 }
 
 .App {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin:0 auto;
-  padding: 60px 0 100px;
+  padding: 80px 0 100px;
   max-width: 960px;
+
 }
 
   .App-logo {
